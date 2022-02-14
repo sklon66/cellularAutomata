@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>life</title>
+    <script defer="true" src="main.js"></script>
+    <style>
+        div{
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+    <ul id="Grid"></ul>
+    <canvas id="canvas" style="outline: 1px dashed red;"></canvas>
+    <div class="interface">
+        <button onclick="life.newLife()">new</button>
+        <button onclick="life.update()">update</button>
+        <button onclick="life.menu('start')">play</button>
+        <button onclick="life.menu('stop')">stop</button>
+        <button onclick="life.menu('step')">step</button>
+    </div>
+</body>
+</html>
